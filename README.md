@@ -3,7 +3,6 @@
 ## Sample Output
 
 ```
-
 Enter the name for player 1: Tuna
 Enter the name for player 2: Seckin
     1   2   3
@@ -30,5 +29,7 @@ b     |   | o
 c     |   |
 Tuna's turn
 Enter the which position you want to play Tuna:
-
 ```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
