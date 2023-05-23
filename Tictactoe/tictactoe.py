@@ -1,7 +1,7 @@
 from player import Players
 
 
-class Tictacoe:
+class Tictactoe:
     def __init__(self):
         self.deck = {1:"   ",2:"   ",3:"   ",4:"   ",5:"   ",6:"   ",7:"   ",8:"   ",9:"   "}
         players=Players.print_names()
