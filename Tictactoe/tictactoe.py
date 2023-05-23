@@ -1,3 +1,6 @@
+from player import Players
+
+
 class Tictacoe:
     def __init__(self):
         self.deck = {1:"   ",2:"   ",3:"   ",4:"   ",5:"   ",6:"   ",7:"   ",8:"   ",9:"   "}
@@ -98,33 +101,3 @@ class Tictacoe:
                 self.change_current()
             if self.tie():
                 print("Tie!")
-    
-
-class Players:
-    def __init__(self, name):
-        self.name = name
-
-
-    def print_names():
-        name1=input("Enter the name for player 1: ")
-        name2=input("Enter the name for player 2: ")
-        player1 = Players(name1)
-        player2 = Players(name2)
-        print(player1.name)
-        print(player2.name)
-        return[player1, player2]
-     
-        
-def main():
-    while True:
-        game = Tictacoe()
-        game.play()
-        c=int(input("For play again enter 1 - For quit press enter: "))
-        if c==1:
-            continue
-        else:
-            break
-
-
-if __name__ == '__main__':
-    main()
